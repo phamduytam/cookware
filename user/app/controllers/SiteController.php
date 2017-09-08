@@ -20,7 +20,7 @@ class SiteController extends Controller
 		$new = $model->getNewList(4);
 
 		// banchay
-		$banchay = $model->getBanchayList(4);
+		$banchay = $model->getBanchayList(8);
 
 		// noibat
 		$noibat = $model->getNoibatList(4);
@@ -36,9 +36,13 @@ class SiteController extends Controller
 		$tmp_model = new StaticAR();
 		$title = $tmp_model->findByPk(6);
 
+		$model = new TintucAR();
+		$model->noibat = true;
+		$tintuc = $model->getList(3);
+
 		$this->layout = 'main';
 
-		$this->render('index', compact('advertise', 'new', 'banchay', 'noibat', 'category', 'title'));
+		$this->render('index', compact('advertise', 'new', 'banchay', 'noibat', 'category', 'title', 'tintuc'));
 	}
 
 	/**

@@ -22,10 +22,10 @@ $setting['enableDateTo'] = true; //月額パック、コンテンツの終了日
 
 $setting['db_enable_slave'] = false;
 $setting['db_master'] = array(
-	'connectionString' => 'mysql:host=127.0.0.1;dbname=safure',//maylo846_db
+	'connectionString' => 'mysql:host=127.0.0.1;dbname=cookware',//
 	'emulatePrepare' => true,
-	'username' => 'root',//maylo846_user
-	'password' => '',//KPEG4983umkp
+	'username' => 'root',//
+	'password' => '',//
 	'charset' => 'utf8',
 	'enableProfiling' => true,    // SQL文
 	'enableParamLogging' => true, // パラメータ表示に必要

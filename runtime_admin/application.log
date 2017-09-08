@@ -10551,3 +10551,2363 @@ Stack trace:
 REQUEST_URI=/frontpage
 HTTP_REFERER=http://cookware.dev/
 ---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085513fuc4521_93.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085513fuc4521_93.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494051797banner-1.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494051...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494051797banner-1.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085449fuc4517_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085449fuc4517_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940856803_45.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940856803_45.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085219fuc4517_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085219fuc4517_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940853443_92.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940853443_92.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085085fuc4515_78.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085085fuc4515_78.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085144fuc4515_75.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085144fuc4515_75.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084996fuc4524_77.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084996fuc4524_77.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084898fuc4521_28.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084898fuc4521_28.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942243481494058009Banner-5.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942243481494058009Banner-5.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087349fuc4535_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087349fuc4535_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057857banner2.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057857banner2.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087168fuc4538_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087168fuc4538_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087272fuc4543_00.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087272fuc4543_00.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086874fuc4531_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086874fuc4531_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087042fuc4541_69.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087042fuc4541_69.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086783fuc4527_57.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086783fuc4527_57.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086722fuc4528_73.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086722fuc4528_73.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942241011494058031Banner-4.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942241011494058031Banner-4.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057882banner3.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057882banner3.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940866406_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940866406_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940865197_07.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940865197_07.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050399002.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050399002.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050411001.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050411001.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050559003.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050559003.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050389004.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050389004.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050377005.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050377005.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050366006.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050366006.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085513fuc4521_93.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085513fuc4521_93.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084996fuc4524_77.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084996fuc4524_77.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085144fuc4515_75.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085144fuc4515_75.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494051797banner-1.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494051...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494051797banner-1.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940856803_45.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940856803_45.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085449fuc4517_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085449fuc4517_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940853443_92.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940853443_92.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085219fuc4517_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085219fuc4517_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085085fuc4515_78.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085085fuc4515_78.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084898fuc4521_28.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084898fuc4521_28.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942243481494058009Banner-5.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942243481494058009Banner-5.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087349fuc4535_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087349fuc4535_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087272fuc4543_00.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087272fuc4543_00.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057857banner2.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057857banner2.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087168fuc4538_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087168fuc4538_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087042fuc4541_69.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087042fuc4541_69.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086874fuc4531_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086874fuc4531_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086722fuc4528_73.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086722fuc4528_73.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086783fuc4527_57.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086783fuc4527_57.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942241011494058031Banner-4.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942241011494058031Banner-4.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057882banner3.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057882banner3.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940866406_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940866406_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940865197_07.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940865197_07.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050411001.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050411001.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050399002.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050399002.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050559003.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050559003.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050389004.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050389004.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050377005.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050377005.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:16:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050366006.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050366006.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085513fuc4521_93.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085513fuc4521_93.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085144fuc4515_75.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085144fuc4515_75.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084996fuc4524_77.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084996fuc4524_77.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494051797banner-1.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494051...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494051797banner-1.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940856803_45.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940856803_45.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085449fuc4517_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085449fuc4517_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940853443_92.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940853443_92.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085219fuc4517_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085219fuc4517_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084898fuc4521_28.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084898fuc4521_28.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085085fuc4515_78.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085085fuc4515_78.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942243481494058009Banner-5.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942243481494058009Banner-5.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087349fuc4535_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087349fuc4535_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057857banner2.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057857banner2.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087272fuc4543_00.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087272fuc4543_00.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087042fuc4541_69.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087042fuc4541_69.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087168fuc4538_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087168fuc4538_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086874fuc4531_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086874fuc4531_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086783fuc4527_57.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086783fuc4527_57.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086722fuc4528_73.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086722fuc4528_73.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942241011494058031Banner-4.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942241011494058031Banner-4.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940866406_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940866406_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057882banner3.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057882banner3.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940865197_07.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940865197_07.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050411001.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050411001.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050559003.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050559003.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050399002.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050399002.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050389004.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050389004.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050377005.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050377005.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050366006.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050366006.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087042fuc4541_69.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087042fuc4541_69.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087168fuc4538_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087168fuc4538_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084898fuc4521_28.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084898fuc4521_28.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086783fuc4527_57.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086783fuc4527_57.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087349fuc4535_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087349fuc4535_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086722fuc4528_73.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086722fuc4528_73.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057857banner2.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057857banner2.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942243481494058009Banner-5.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942243481494058009Banner-5.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087272fuc4543_00.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087272fuc4543_00.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086874fuc4531_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086874fuc4531_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085219fuc4517_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085219fuc4517_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084996fuc4524_77.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084996fuc4524_77.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085085fuc4515_78.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085085fuc4515_78.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940853443_92.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940853443_92.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940856803_45.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940856803_45.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085144fuc4515_75.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085144fuc4515_75.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085513fuc4521_93.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085513fuc4521_93.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494051797banner-1.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494051...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494051797banner-1.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085449fuc4517_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085449fuc4517_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057882banner3.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057882banner3.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942241011494058031Banner-4.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942241011494058031Banner-4.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940866406_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940866406_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940865197_07.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940865197_07.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050411001.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050411001.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050399002.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050399002.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050559003.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050559003.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050389004.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050389004.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050377005.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050377005.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050366006.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050366006.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085513fuc4521_93.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085513fuc4521_93.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085144fuc4515_75.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085144fuc4515_75.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084996fuc4524_77.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084996fuc4524_77.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940856803_45.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940856803_45.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494051797banner-1.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494051...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494051797banner-1.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085449fuc4517_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085449fuc4517_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940853443_92.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940853443_92.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085219fuc4517_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085219fuc4517_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494084898fuc4521_28.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494084898fuc4521_28.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085085fuc4515_78.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085085fuc4515_78.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942243481494058009Banner-5.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942243481494058009Banner-5.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057857banner2.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057857banner2.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087349fuc4535_86.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087349fuc4535_86.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087272fuc4543_00.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087272fuc4543_00.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087042fuc4541_69.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087042fuc4541_69.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087168fuc4538_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087168fuc4538_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086874fuc4531_04.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086874fuc4531_04.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086783fuc4527_57.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086783fuc4527_57.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086722fuc4528_73.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086722fuc4528_73.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/14942241011494058031Banner-4.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494224...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/14942241011494058031Banner-4.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940866406_26.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940866406_26.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494057882banner3.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494057...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494057882banner3.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940865197_07.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940865197_07.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050411001.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050411001.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050559003.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050559003.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050399002.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050399002.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050389004.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050389004.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050377005.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050377005.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494050366006.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494050...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494050366006.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494049661slide1.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494049...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494049661slide1.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494049676slide2.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494049...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494049676slide2.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494049661slide1.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494049...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494049661slide1.jpg
+HTTP_REFERER=http://cookware.dev/admin/advertise/edit/3
+---
+2017/09/08 05:31:30 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\cookware\admin\app\controllers\AdvertiseController.php (77)
+in C:\xampp\htdocs\cookware\public_html\admin\index.php (9)
+2017/09/08 05:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494049676slide2.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494049...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494049676slide2.jpg
+HTTP_REFERER=http://cookware.dev/admin/advertise/edit/21
+---
+2017/09/08 05:31:45 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\cookware\admin\app\controllers\AdvertiseController.php (77)
+in C:\xampp\htdocs\cookware\public_html\admin\index.php (9)
+2017/09/08 05:32:02 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\cookware\admin\app\controllers\AdvertiseController.php (33)
+in C:\xampp\htdocs\cookware\public_html\admin\index.php (9)
+2017/09/08 05:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:30 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\cookware\admin\app\controllers\AdvertiseController.php (77)
+in C:\xampp\htdocs\cookware\public_html\admin\index.php (9)
+2017/09/08 05:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 05:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494142048173528_nuoc-mua-6.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494142...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494142048173528_nuoc-mua-6.jpg
+HTTP_REFERER=http://cookware.dev/admin/tintuc/edit/6
+---
+2017/09/08 05:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494142048173528_nuoc-mua-6.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494142...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494142048173528_nuoc-mua-6.jpg
+HTTP_REFERER=http://cookware.dev/admin/tintuc/edit/6
+---
+2017/09/08 05:56:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494142048173528_nuoc-mua-6.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494142...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494142048173528_nuoc-mua-6.jpg
+HTTP_REFERER=http://cookware.dev/admin/tintuc/edit/6
+---
+2017/09/08 05:56:47 [warning] [application] Failed to set unsafe attribute "image" of "TinTucAR".
+in C:\xampp\htdocs\cookware\admin\app\controllers\TintucController.php (73)
+in C:\xampp\htdocs\cookware\public_html\admin\index.php (9)
+2017/09/08 05:56:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494142048173528_nuoc-mua-6.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494142...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494142048173528_nuoc-mua-6.jpg
+HTTP_REFERER=http://cookware.dev/admin/tintuc/edit/6
+---
+2017/09/08 05:58:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494141693dsc_0315_btpo.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494141...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494141693dsc_0315_btpo.jpg
+HTTP_REFERER=http://cookware.dev/admin/tintuc/edit/3
+---
+2017/09/08 05:58:05 [warning] [application] Failed to set unsafe attribute "image" of "TinTucAR".
+in C:\xampp\htdocs\cookware\admin\app\controllers\TintucController.php (73)
+in C:\xampp\htdocs\cookware\public_html\admin\index.php (9)
+2017/09/08 05:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494141693dsc_0315_btpo.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494141...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494141693dsc_0315_btpo.jpg
+HTTP_REFERER=http://cookware.dev/admin/tintuc/edit/3
+---
+2017/09/08 05:58:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494141448Thuc-trang-nguon-nuoc-sach-va-giai-phap-may-loc-nuoc (2).jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494141...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494141448Thuc-trang-nguon-nuoc-sach-va-giai-phap-may-loc-nuoc%20(2).jpg
+HTTP_REFERER=http://cookware.dev/admin/tintuc/edit/2
+---
+2017/09/08 05:58:14 [warning] [application] Failed to set unsafe attribute "image" of "TinTucAR".
+in C:\xampp\htdocs\cookware\admin\app\controllers\TintucController.php (73)
+in C:\xampp\htdocs\cookware\public_html\admin\index.php (9)
+2017/09/08 05:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494141448Thuc-trang-nguon-nuoc-sach-va-giai-phap-may-loc-nuoc (2).jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494141...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494141448Thuc-trang-nguon-nuoc-sach-va-giai-phap-may-loc-nuoc%20(2).jpg
+HTTP_REFERER=http://cookware.dev/admin/tintuc/edit/2
+---
+2017/09/08 06:06:42 [error] [php] Undefined variable: data (C:\xampp\htdocs\cookware\user\app\views\site\index.php:1596)
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\cookware\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\cookware\user\app\controllers\SiteController.php(45): SiteController->render()
+#3 C:\xampp\htdocs\cookware\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\cookware\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\cookware\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\cookware\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\cookware\public_html\index.php(12): CWebApplication->run()
+REQUEST_URI=/
+in C:\xampp\htdocs\cookware\user\app\views\site\index.php (1596)
+in C:\xampp\htdocs\cookware\user\app\controllers\SiteController.php (45)
+in C:\xampp\htdocs\cookware\public_html\index.php (12)
+2017/09/08 06:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:06:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494312515untitled-1-640x1024_51.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494312515untitled-1-640x1024_51.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086178untitled-1-640x1024_97.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086178untitled-1-640x1024_97.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086264img-0765_34.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086264img-0765_34.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494087401fuc8424_15.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494087401fuc8424_15.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494086958fuc8435_94.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494086958fuc8435_94.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/1494085906fuc8312_60.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/1494085906fuc8312_60.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494142048173528_nuoc-mua-6.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494142...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494142048173528_nuoc-mua-6.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494141693dsc_0315_btpo.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494141...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494141693dsc_0315_btpo.jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/1494141448Thuc-trang-nguon-nuoc-sach-va-giai-phap-may-loc-nuoc (2).jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/1494141...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1494141448Thuc-trang-nguon-nuoc-sach-va-giai-phap-may-loc-nuoc%20(2).jpg
+HTTP_REFERER=http://cookware.dev/
+---
+2017/09/08 06:07:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/thumbs/14940857451_96.jpg".' in C:\xampp\htdocs\cookware\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\cookware\framework\web\CWebApplication.php(142): CWebApplication->runController('uploads/thumbs/...')
+#1 C:\xampp\htdocs\cookware\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\cookware\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/thumbs/14940857451_96.jpg
+HTTP_REFERER=http://cookware.dev/
+---

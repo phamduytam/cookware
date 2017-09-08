@@ -51,7 +51,9 @@
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'status'); ?>
-	<?php echo $form->checkBox($model,'status', array('checked' => 'checked')); ?>
+	<?php echo $form->checkBox($model,'status', array('checked' => 'checked')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+	<?php echo $form->labelEx($model,'noibat'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+	<?php echo $form->checkBox($model,'noibat'); ?>&nbsp;
 </div>
 
 <div class="form-group">

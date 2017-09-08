@@ -7,6 +7,8 @@ class TinTucAR extends BaseAR
 	 * @return AdminAR the static model class
 	 */
 	public $word;
+	public $noibat;
+
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -40,7 +42,7 @@ class TinTucAR extends BaseAR
 			*/
 			array('name, content, alias, created', 'required', 'message' => 'Vui lòng nhập {attribute}'),
 			array('image', 'file', 'allowEmpty'=>true, 'types' => 'jpg, gif, png, jpeg', 'maxSize' => 2048*1000, 'wrongType' => 'Image không đúng định dạng ', 'tooLarge' => 'Image quá lớn'),
-			array('description, order, status', 'safe')
+			array('description, order, status, noibat', 'safe')
 		);
 	}
 
@@ -144,6 +146,8 @@ class TinTucAR extends BaseAR
 		$criteria = new CDbCriteria();
 		$criteria->select = '*';
 		$criteria->addCondition('t.status = :status')->params[':status'] = 1;
+		if (strlen($this->noibat))
+			$criteria->addCondition('t.noibat = :noibat')->params[':noibat'] = 1;
 		$criteria->order = 'id DESC';
 		$criteria->limit = $limit;
 		return $this->findAll($criteria);
