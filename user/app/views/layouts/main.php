@@ -43,6 +43,8 @@
         <link href='<?php echo app()->baseUrl;?>/assets/animate.min.css?1493875157619' rel='stylesheet' type='text/css' />
         <!-- Style -->
         <link href='<?php echo app()->baseUrl;?>/assets/style.css?1493875157619' rel='stylesheet' type='text/css' />
+        <link href='<?php echo app()->baseUrl;?>/assets/themes_support/nprogress.css?20171025' rel='stylesheet' type='text/css' />
+        <link href='<?php echo app()->baseUrl;?>/assets/themes_support/checkout.css?20180321' rel='stylesheet' type='text/css' />
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
