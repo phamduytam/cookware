@@ -72,6 +72,51 @@
 
     <body>
         <div id="content" >
+            <script>
+                function removeCart(cart) {
+                    Bizweb.getCart(loadCart);
+                }
+                function cartItem(addItem) {
+                    $.notify({
+                        message: "Sản phẩm "+ addItem.name +" đã được thêm vào giỏ hàng",
+                        type: 'success'
+                    });
+                    Bizweb.getCart(loadCart);
+                }
+                function loadCart(cart) {
+                    $(".nav-cart > a > span").html(cart.item_count);
+                    var html = "";
+                    if( cart.items.length > 0 ) {       
+                        html = "<ul>"
+
+                        for (i = 0; i < cart.items.length; i++) {
+                            var linkimg = cart.items[i].image;
+                            if(
+                                linkimg =="null" || linkimg =='' || linkimg == null){
+                                linkimg = '<?php echo app()->baseUrl;?>/thumb/small/100/054/978/themes/591142/assets/no_image.jpg?1513930122605';
+                            }
+                            html += "<li>";
+                            html += "<a class='cart-mini-image' href='" + cart.items[i].url + "'><img class='cart-mini-image' src='" + linkimg + "' alt='" + cart.items[i].name + "'></a>";
+                            html += "<h3 class='cart-mini-name'>" + cart.items[i].name + "</h3>";
+                            html += "<p class='cart-mini-price'>" + Bizweb.formatMoney(cart.items[i].price, '{{amount_no_decimals_with_comma_separator}}₫') + "</p>";
+                            html += "<p class='cart-mini-quantity'>Số lượng: " + cart.items[i].quantity + "</p>";
+                            html += "<a class='cart-mini-remove' href='javascript:void(0)' onclick='Bizweb.removeItem(" + cart.items[i].variant_id + " , removeCart);'><i class='fa fa-times'></i></a>";
+                            html += "</li>";
+                        }
+                        html += "</ul>";
+                        html += "<div class='cart-mini-total'>";
+                        html += "<p>Tổng <span class='pull-right'>" + Bizweb.formatMoney(cart.total_price, '{{amount_no_decimals_with_comma_separator}}₫') + "</span></p>";
+                        html += "</div>";
+                        html += "<div class='cart-mini-bottom'>";
+                        html += "<a href='/cart'><i class='fa fa-shopping-cart'></i>Giỏ hàng</a>";
+                        html += "<a href='/checkout'><i class='fa fa-check'></i>Thanh toán</a>";
+                        html += "</div>";
+                    } else {
+                        html += "<p class='no-cart'>Chưa có sản phẩm nào trong giỏ hàng</p>";
+                    }
+                    $(".cart-mini").html(html);
+                }
+            </script>
             <header id="header">
     <div class="header-top">
         <div class="container">

@@ -67,6 +67,7 @@ return array(
 				'khach-hang.html' => 'khachhang',
 				'khach-hang/chi-tiet/<id:\w+>/<alias:[\s\S]+>' => 'khachhang/detail',
 				'dich-vu' => 'dichvu',
+				'cart' => 'cart',
 				'san-pham.html' => 'product',
 				'san-pham' => 'product',
 				'san-pham/tim-kiem' => 'product/search',
