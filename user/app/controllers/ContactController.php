@@ -26,6 +26,7 @@ class ContactController extends Controller
 		$email = $tmp_model->findByPk(7);
 
 		$this->pageTitle = 'Liên hệ';
+		$this->layout = 'standard';
 		$this->render('index', compact('model', 'contact', 'diachi', 'dienthoai', 'email'));
 	}
 

@@ -13,7 +13,7 @@ class CartController extends Controller
 	}
 
 	public function actionCheckout() {
-		$this->layout = 'main';
+		$this->layout = 'standard';
 		$this->breadcrumbs = array(
 			'Giỏ hàng' => ''
 			);

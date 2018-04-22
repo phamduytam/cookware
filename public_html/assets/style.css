@@ -2,7 +2,8 @@ body{font-family:"Roboto" ,Helvetica,Arial,sans-serif;background-color:#fff;colo
 a:focus,a:hover,a:active{text-decoration:none}
 ul{margin:0;padding:0;list-style:none}
 img{max-width:100%}
-#header{margin-bottom:30px}
+#content {padding-top: 186px;}
+#header{ position: fixed; z-index: 100; width: 100%; top: 0;}
 .page #header{margin-bottom:0}
 .header-top{background-color: #323232;}
 .logo{display:inline-block;margin-top:40px}
@@ -12,7 +13,8 @@ img{max-width:100%}
 .header-hotline h2{margin:0;padding:0;font-size:14px;font-weight:400;color:#c7c7c7}
 .header-right{float:right;border-right:1px solid #4b4b4b;border-left:1px solid #4b4b4b}
 .nav-account-cart{height:55px}
-.nav-account-cart > ul > li{float:left}
+.nav-account-cart > ul {width: 100%;}
+.nav-account-cart > ul > li{float:left;width: 100%;}
 .nav-account-cart > ul > li > a{display:block;height:55px;padding:0 30px;line-height:55px;color:#c7c7c7;border-right:1px solid #4b4b4b;border-bottom:1px solid #4b4b4b}
 .nav-account-cart > ul > li:last-child > a{border-right:none}
 .nav-account-cart > ul > li > a > i:first-child{margin-right:5px;color:#ef3737}

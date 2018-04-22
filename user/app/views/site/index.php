@@ -5,86 +5,38 @@
                 <nav class="nav-category block">
     <h2 id="click_show_cate">Danh mục</h2>
     <ul id="show_cate">
-        
         <li >
-            
-            
-            
             <a href="/frontpage"><img src="<?php echo app()->baseUrl;?>/assets/category1.png?1493875157619"  alt="Sản phẩm mới"><img src="assets/category-hover1.png?1493875157619"  alt="Sản phẩm mới"> Sản phẩm mới</a>
             
         </li>
         
         <li >
-            
-            
-            
             <a href="/san-pham-noi-bat"><img src="<?php echo app()->baseUrl;?>/assets/category2.png?1493875157619"  alt="Sản phẩm nổi bật"><img src="assets/category-hover2.png?1493875157619"  alt="Sản phẩm nổi bật"> Sản phẩm nổi bật</a>
             
         </li>
         
         <li >
-            
-            
-            
             <a href="/san-pham-khuyen-mai"><img src="<?php echo app()->baseUrl;?>/assets/category3.png?1493875157619"  alt="Sản phẩm khuyến mãi"><img src="assets/category-hover3.png?1493875157619"  alt="Sản phẩm khuyến mãi"> Sản phẩm khuyến mãi</a>
             
         </li>
-        
-        <li >
-            
-            
-            
-            <a href="/xoong-noi"><img src="<?php echo app()->baseUrl;?>/assets/category4.png?1493875157619"  alt="Xoong/Nồi"><img src="assets/category-hover4.png?1493875157619"  alt="Xoong/Nồi"> Xoong/Nồi</a>
-            
+    <?php
+        $i = 0;
+        $category = $this->getCategory();
+        if($category):
+            ?>
+        <?php
+        foreach ($category as $v):
+            $i++;
+    ?>
+        <li>
+            <a href="<?php echo app()->baseUrl;?>/san-pham/<?php echo $v->alias?>.html" title="<?php echo $v->name?>">
+                <img src="assets/category<?php echo $i ?>.png" alt="<?php echo $v->name?>">
+                <img src="assets/category-hover<?php echo $i ?>.png" alt="<?php echo $v->name?>">
+                <?php echo $v->name?></a>
+            </a>
         </li>
-        
-        <li >
-            
-            
-            
-            <a href="/do-nuong"><img src="<?php echo app()->baseUrl;?>/assets/category5.png?1493875157619"  alt="Bếp nướng"><img src="assets/category-hover5.png?1493875157619"  alt="Bếp nướng"> Bếp nướng</a>
-            
-        </li>
-        
-        <li >
-            
-            
-            
-            <a href="/cac-loai-bep"><img src="<?php echo app()->baseUrl;?>/assets/category6.png?1493875157619"  alt="Các loại bếp"><img src="assets/category-hover6.png?1493875157619"  alt="Các loại bếp"> Các loại bếp</a>
-            
-        </li>
-        
-        <li >
-            
-            
-            
-            <a href="/may-xay-sinh-to"><img src="<?php echo app()->baseUrl;?>/assets/category7.png?1493875157619"  alt="Máy xay sinh tố"><img src="assets/category-hover7.png?1493875157619"  alt="Máy xay sinh tố"> Máy xay sinh tố</a>
-            
-        </li>
-        
-        <li >
-            
-            
-            
-            <a href="/am-dun-nuoc"><img src="<?php echo app()->baseUrl;?>/assets/category8.png?1493875157619"  alt="Ấm đun nước"><img src="assets/category-hover8.png?1493875157619"  alt="Ấm đun nước"> Ấm đun nước</a>
-            
-        </li>
-        
-        <li >
-            
-            
-            
-            <a href="/do-gia-dung"><img src="<?php echo app()->baseUrl;?>/assets/category9.png?1493875157619"  alt="Đồ gia dụng"><img src="assets/category-hover9.png?1493875157619"  alt="Đồ gia dụng"> Đồ gia dụng</a>
-            
-        </li>
-        
-        <li >
-            
-            
-            
-            <a href="/may-lam-kem-sua-chua"><img src="<?php echo app()->baseUrl;?>/assets/category10.png?1493875157619"  alt="Máy làm kem, sữa chua"><img src="assets/category-hover10.png?1493875157619"  alt="Máy làm kem, sữa chua"> Máy làm kem, sữa chua</a>
-            
-        </li>
+        <?php endforeach;?>
+		<?php endif;?>
         
     </ul>
 </nav>
@@ -93,18 +45,10 @@
         <h2>Hỗ trợ trực tuyến</h2>
     </div>
     <div class="block-content">
-        <div class="sp_1">
-            <p>Tư vấn bán hàng 1</p>
-            <p>Mrs. Dung: <span>(04) 3786 8904</span></p>
-        </div>
-        <div class="sp_2">
-            <p>Tư vấn bán hàng 2</p>
-            <p>Mr. Tuấn: <span>(04) 3786 8904</span></p>
-        </div>
-        <div class="sp_mail">
-            <p>Email liên hệ</p>
-            <p><a href="mailto:support@bizweb.vn">support@bizweb.vn</a></p>
-        </div>
+        <?php
+            $tuvan = $this->getTuvan();
+            echo $tuvan;
+        ?>
     </div>
 </div>
             </div>
@@ -1562,303 +1506,3 @@
         </div>
     </div>
 </section>
-
-<?php if ($tintuc):?>
-<section class="news">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="heading2">
-                    <h2>Tin tức</h2>
-                    <div class="heading-button">
-                        <span class="button-prev hidden-lg hidden-md hidden-sm" onclick="$('.owl-news').data('owlCarousel').prev();"><i class="fa fa-angle-left"></i></span>
-                        <span class="button-next hidden-lg hidden-md hidden-sm" onclick="$('.owl-news').data('owlCarousel').next();"><i class="fa fa-angle-right"></i></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="news-content">
-                    <div class="owl-news">
-					<?php foreach($tintuc as $v):?>
-                        <div class="item">
-                            <div class="article-item">
-								<div class="article-item-thumbnail">
-									<div class="article-item-background">
-										<div class="article-item-button">
-											<a class="article-item-view" href="<?php echo url('/tin-tuc/chi-tiet/' . $v->id . '/' . $v->alias.'.html')?>"><i class="fa fa-search"></i></a>
-										</div>
-									</div>
-									
-									<img class="img-responsive" src="<?php echo app()->baseUrl?>/uploads/<?php echo $v->image?>" alt="<?php echo $v->name?>">
-									
-								</div>
-								<h3 class="article-item-name"><a href="<?php echo url('/tin-tuc/chi-tiet/' . $v->id . '/' . $v->alias.'.html')?>"><?php echo $v->name?></a></h3>
-								<p class="article-item-info"><span><i class="fa fa-user"></i>Internet</span><span><i class="fa fa-clock-o"></i> <?php echo $v->created?></span></p>
-								<p class="article-item-summary">
-								<?php echo cutStr(html_entity_decode($v->description, ENT_QUOTES, 'UTF-8'), 100)?>
-								</p>
-								<a class="article-item-readmore" href="<?php echo url('/tin-tuc/chi-tiet/' . $v->id . '/' . $v->alias.'.html')?>">Xem thêm</a>
-							</div>
-						</div>
-					<?php endforeach;?>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<?php endif;?>
-
-<!---
-
-<link href='<?php echo app()->baseUrl;?>/themes/224896/assets/tab_index.css?1491278158182' rel='stylesheet' type='text/css' /> 
-<div class="wrapper">
-	<div class="container">
-
-		<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-			<ul id="myTab" class="nav nav-tabs nav-tabs-responsive" role="tablist">
-				<li role="presentation" class="active">
-					<a href="#sanphammoi" id="sanphammoi-tab" role="tab" data-toggle="tab" aria-controls="sanphammoi-tab" aria-expanded="true">
-						<span class="text">Sản phẩm mới</span>
-					</a>
-				</li>
-				<li role="presentation" class="next">
-					<a href="#noibat" role="tab" id="noibat-tab" data-toggle="tab" aria-controls="noibat-tab">
-						<span class="text">Sản phẩm nổi bật</span>
-					</a>
-				</li>
-				<li role="presentation">
-					<a href="#muanhieu" role="tab" id="muanhieu-tab" data-toggle="tab" aria-controls="muanhieu-tab">
-						<span class="text">Sản phẩm mua nhiều</span>
-					</a>
-				</li>
-			</ul>
-			<div id="myTabContent" class="tab-content">
-				<div role="tabpanel" class="tab-pane fade in active" id="sanphammoi" aria-labelledby="sanphammoi-tab">
-					<div class="row child_tab">
-					<?php if($new):?>
-						<?php foreach ($new as $value):?>
-							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 box-product box_tab_index">
-								<div class="product-box product_box_tab">
-									<h3 class="product-name"><a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>"><?php echo $value->name?></a></h3>
-									<div class="product-thumbnail">
-										<a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>">
-
-											<img src="<?php echo app()->baseUrl?>/uploads/thumbs/<?php echo $value->image?>" alt="<?php echo $value->name?>">
-										</a>
-									</div>
-									<div class="item-content">
-										<div class="item-price">         
-											<div class="price-box"> 			
-												<p class="special-price"> <span class="price"><?php echo $value->price?></span></p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						<?php endforeach;?>
-					<?php endif;?>
-						
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tab_more " style="display:none;">
-							<a class="text_more_tab" href="<?php echo url('/san-pham')?>" title="Xem tất cả">Xem tất cả&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div role="tabpanel" class="tab-pane fade" id="noibat" aria-labelledby="noibat-tab">
-					<div class="row child_tab">
-					<?php if($noibat):?>
-						<?php foreach ($noibat as $value):?>
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 box-product box_tab_index">
-							<div class="product-box product_box_tab">
-								<h3 class="product-name"><a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>"><?php echo $value->name?></a></h3>
-
-								<div class="product-thumbnail">
-									<a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>">
-
-										<img src="<?php echo app()->baseUrl?>/uploads/thumbs/<?php echo $value->image?>" alt="<?php echo $value->name?>">
-
-									</a>
-								</div>
-								<div class="item-content">
-									<div class="item-price">         
-										<div class="price-box"> 
-											<p class="special-price"> <span class="price"><?php echo $value->price?></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<?php endforeach;?>
-					<?php endif;?>
-
-						
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tab_more" style="display:none;">
-							<a class="text_more_tab" href="<?php echo url('/san-pham')?>" title="Xem tất cả">Xem tất cả&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-				
-				<div role="tabpanel" class="tab-pane fade" id="muanhieu" aria-labelledby="muanhieu-tab">
-					<div class="row child_tab">
-					<?php if($banchay):?>
-						<?php foreach ($banchay as $value):?>
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 box-product box_tab_index">
-							<div class="product-box product_box_tab">
-								<h3 class="product-name"><a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>"><?php echo $value->name?></a></h3>
-
-								<div class="product-thumbnail">
-									<a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>">
-
-										<img src="<?php echo app()->baseUrl?>/uploads/thumbs/<?php echo $value->image?>" alt="<?php echo $value->name?>">
-
-									</a>
-								</div>
-								<div class="item-content">
-									<div class="item-price">         
-										<div class="price-box"> 
-											<p class="special-price"> <span class="price"><?php echo $value->price?></span></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<?php endforeach;?>
-					<?php endif;?>
-
-						
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tab_more" style="display:none;">
-							<a class="text_more_tab" href="<?php echo url('/san-pham')?>" title="Xem tất cả">Xem tất cả&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-</div>
-<script src='themes/224896/assets/tab_index.js?1491278158182' type='text/javascript'></script>
-
-
-<div class="content-page">
-
-	<?php if($category):?>
-
-		<?php $i = 1; foreach($category as $v):?>
-			<div class="section section-collection">
-				<div class="container collection_pd">
-					
-					<div class="row">
-						<div class="col-lg-12  header-title">
-							
-							<div class="title-left<?php echo $i>1? $i: ''?>">
-								<h2><a href='<?php echo url('/san-pham/' . $v->alias)?>'><?php echo $v->name?></a></h2>
-							</div>
-						</div>
-					</div>
-					
-					
-					<div class="row">
-						<div class="col-lg-3 col-md-4 hidden-md-down banner-padding" style="padding-right:0px;">
-							<div class="banner-left">
-								<?php if($v->img_left != ''):?>
-								<a href="#"><img src="<?php echo app()->baseUrl?>/uploads/<?php echo $v->img_left?>" alt="#" /></a>
-								<?php endif;?>
-							</div>
-						</div>
-						<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 content_left_pd">
-							<div class="content-left">
-								<div class="row">
-									<div  class="col-lg-9 col-md-9 col-sm-9 col-xs-12 wrap-product wrp_xs_pd">
-										<?php $productCat = $this->getProductByCatId($v->id);?>
-										<?php if($productCat):?>
-										<ul>
-											
-											<?php foreach ($productCat as $value):?>
-											<li class="col-lg-4 col-md-4 col-sm-4 col-xs-6 item item_pr_pd">
-												<div class=" box-product">
-													<div class="product-box product-mini">
-														<h3 class="product-name"><a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>"><?php echo $value->name?></a></h3>
-
-														<div class="product-thumbnail">
-															<div class="product-image-thumb">
-																<a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>">
-																	<img src="<?php echo app()->baseUrl?>/uploads/thumbs/<?php echo $value->image?>" alt="LG G3 Stylus H540 " >
-																</a>
-															</div>
-														</div>
-														<div class="item-content">
-															<div class="item-price"> 
-																<div class="price-box"> 
-																	<p class="no_margin special-price"> <span class="price"><?php echo $value->price?></span></p>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-											<?php endforeach;?>
-										</ul>
-										<?php endif;?>
-
-									</div>
-									<?php $productCat2 = $this->getProductByCatIdLast($v->id);?>
-									<?php if($productCat2):?>
-									<div class="col-lg-3 col-md-3 col-sm-3 hidden-xs-down item-pro-list" style="padding-left:0px;">
-										<?php foreach ($productCat2 as $value):?>
-										<div class="product-item">
-											<div class="product-image">
-												<a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>" >
-													<img src="<?php echo app()->baseUrl?>/uploads/thumbs/<?php echo $value->image?>" alt="<?php echo $value->name?>"/>
-												</a>
-
-											</div>
-											<div class="content-product">
-												<h3><a href="<?php echo url('/chi-tiet/' . $value->id . '/' . $value->alias)?>" title="<?php echo $value->name?>"><?php echo $value->name?></a></h3>
-												<div class="price-box"> 
-													<p class="special-price2"> <span class="price2"><?php echo $value->price?></span></p>
-												</div>
-											</div>
-										</div>
-										<?php endforeach;?>
-									</div>
-									<?php endif;?>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<?php if($v->img_bottom != ''): ?>
-			<div class="section">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 hidden-md-down">
-							<div class="banner-body">
-								<a href="#"><img src="<?php echo app()->baseUrl?>/uploads/<?php echo $v->img_bottom?>" alt="#"/></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<?php endif;?>
-		<?php $i++; endforeach;?>
-	<?php endif;?>
-	<?php $thuonghieu = $this->getThuonghieu();
-		if ($thuonghieu):
-	?>
-	<section class="banner-brand-wrap hidden-sm-down">
-		<div class="container banner-brand-wrap">
-			<div class="banner-brand">
-				<div id="owl-brand" class="owl-carousel owl-theme">
-				<?php foreach($thuonghieu as $v):?>
-					<div class="item"><img src="<?php echo app()->baseUrl?>/uploads/<?php echo $v->image?>" alt="safure"/></div>
-				<?php endforeach;?>
-				</div>
-			</div>
-		</div>
-	</section>
-	<?php endif;?>
-
-</div>
--->

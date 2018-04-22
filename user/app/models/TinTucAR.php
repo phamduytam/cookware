@@ -1,5 +1,5 @@
 <?php
-class TinTucAR extends BaseAR
+class TintucAR extends BaseAR
 {
 	/**
 	 * Returns the static model of the specified AR class.

@@ -96,7 +96,7 @@ class Controller extends CController
 			return strip_tags($this->description);
 		else{
 			$model = StaticAR::model()->findByPk(2);
-			$title = $this->id == 'site'? 'Máy lọc nước sạch' : $this->pageTitle;
+			$title = $this->id == 'site'? 'Mộc Style' : $this->pageTitle;
 			$description = $title.". ". $model->content;
 			return html_entity_decode(strip_tags($description), ENT_QUOTES, 'UTF-8');
 		}
@@ -118,7 +118,7 @@ class Controller extends CController
 
 		$tuvan = StaticAR::model()->findByPk(17);
 		if ($tuvan)
-			return html_entity_decode(strip_tags($tuvan->content), ENT_QUOTES, 'UTF-8');
+			return html_entity_decode(($tuvan->content), ENT_QUOTES, 'UTF-8');
 
 		return false;
 	}
@@ -135,9 +135,9 @@ class Controller extends CController
 
 	public function getTitle()
 	{
-		$title = 'Máy lọc nước sạch';
+		$title = 'Mộc Style';
 		if($this->id == 'site')
-			return 'Máy lọc nước sạch';
+			return 'Mộc Style';
 		if(strlen($this->pageTitle) && $this->id != 'site')
 			return $this->pageTitle . ' - ' . $title;
 		else{
@@ -197,12 +197,15 @@ class Controller extends CController
 
 		$phone = $model->findByPk(6);
 
+		$mobile = $model->findByPk(26);
+
 		$email = $model->findByPk(7);
 
 		if ($address && $phone && $email)
 			return array(
 				'address' => html_entity_decode(strip_tags($address->content), ENT_QUOTES, 'UTF-8'),
 				'phone' => html_entity_decode(strip_tags($phone->content), ENT_QUOTES, 'UTF-8'),
+				'mobile' => html_entity_decode(strip_tags($mobile->content), ENT_QUOTES, 'UTF-8'),
 				'email' => html_entity_decode(strip_tags($email->content), ENT_QUOTES, 'UTF-8')
 				);
 		return false;
@@ -214,13 +217,13 @@ class Controller extends CController
 
 		$facebook = $model->findByPk(9);
 
-		$twitter = $model->findByPk(10);
+		$youtube = $model->findByPk(10);
 
-		if ($google && $facebook && $twitter)
+		if ($google && $facebook && $youtube)
 			return array(
-				'google' => $google,
-				'facebook' => $facebook,
-				'twitter' => $twitter
+				'google' => html_entity_decode(strip_tags($google->content), ENT_QUOTES, 'UTF-8'),
+				'facebook' => html_entity_decode(strip_tags($facebook->content), ENT_QUOTES, 'UTF-8'),
+				'youtube' => html_entity_decode(strip_tags($youtube->content), ENT_QUOTES, 'UTF-8')
 				);
 		return false;
 

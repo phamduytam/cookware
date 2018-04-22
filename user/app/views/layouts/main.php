@@ -13,7 +13,7 @@
         <meta name="keywords" content="Cookware,Themes,DKT,Bizweb">
         <meta name='revisit-after' content='1 days' />
         <title>
-            Cookwave theme  
+        <?php echo $this->getTitle();?>
         </title>
         
 
@@ -125,8 +125,14 @@
             <div class="row">
                 <div class="col-lg-5 col-md-4 col-sm-6 col-xs-12">
                     <a href="/" class="logo">
-                        
-                        <img src="<?php echo app()->baseUrl;?>/assets/logo.png?1493875157619" alt="Cookwave theme">
+                    <?php $logo = $this->getLogo()?>
+                        <?php
+                            if ($logo)
+                                $img = 'uploads/' . $logo->image;
+                            else
+                                $img = 'assets/logo.png';
+                        ?>
+                        <img src="<?php echo app()->baseUrl;?>/<?php echo $img?>" alt="Mộc Style">
                         
                     </a>
                     <a class="nav-main-button" href="javascript:void(0)"><img src="<?php echo app()->baseUrl;?>/assets/nav-main-bars.png?1493875157619" alt="Danh mục"></a>
@@ -135,15 +141,6 @@
                     <div class="header-right">
                         <div class="nav-account-cart">
                             <ul>
-                                <li class="nav-account">
-                                    <a href="/account"><i class="fa fa-user"></i> Tài khoản </a><span id="click_show"><i class="fa fa-angle-down" ></i></span>
-                                    <ul id="account_show">
-                                        
-                                        <li><a href="/account/login">Đăng nhập</a></li>
-                                        <li><a href="/account/register">Đăng ký</a></li>
-                                        
-                                    </ul>
-                                </li>
                                 <li class="nav-cart">
                                     <a href="/cart"><i class="fa fa-shopping-cart"></i> Giỏ hàng: <span>1</span> <i class="fa fa-angle-down"></i></a>
                                     <div class="cart-mini">
@@ -152,17 +149,27 @@
                             </ul>
                         </div>
                         <div class="form-search hidden-xs">
-                            <form method="get" action="/search">
-                                <input type="text" class="search-query" placeholder="Tìm kiếm sản phẩm" value="" name="query">
+                        <?php
+                            $form = $this->beginWidget('TbActiveForm', array(
+                                'action'=>sslUrl('san-pham/tim-kiem'),
+                                'id' => 'search-form',
+                                'method' => 'GET',
+                                'htmlOptions'=>array('enctype' => 'multipart/form-data', 'method' => 'GET')
+                                ));
+                        ?>
+                                <input type="text" class="search-query" placeholder="Tìm kiếm sản phẩm" value="" name="keyword">
                                 <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
-                            </form>
+                        <?php
+                        $this->endWidget();
+                        ?>
                         </div>
                     </div>
                     
                     <div class="header-hotline hidden-sm hidden-xs">
                         <span><i class="fa fa-phone"></i></span>
                         <p> Tư vấn hỗ trợ</p>
-                        <h2>(04) 6674 2332 - (04) 3786 8904</h2>
+                        <?php $hotline = $this->getHotline(); ?>
+                        <h2><?php echo $hotline;?></h2>
                     </div>
                     
                 </div>
@@ -176,22 +183,22 @@
                     <nav class="nav-main">
                         <ul>
                             
-                            <li class="active">
+                            <li class="<?php echo $this->id == 'site' ? 'active' : ''?>">
                                 <a href="/">Trang chủ</a>
                                 
                             </li>
                             
-                            <li >
-                                <a href="/gioi-thieu">Giới thiệu</a>
+                            <li class="<?php echo $this->id == 'gioithieu' ? 'active' : ''?>">
+                                <a href="<?php echo app()->baseUrl;?>/gioi-thieu">Giới thiệu</a>
                                 
                             </li>
                             
-                            <li >
-                                <a href="/collections/all">Sản phẩm</a>
+                            <li class="<?php echo $this->id == 'product' ? 'active' : ''?>">
+                                <a href="<?php echo app()->baseUrl;?>/san-pham">Sản phẩm</a>
                                 
                                 <ul class="nav-main-sub">
                                     
-                                    <li>
+                                    <!-- <li>
                                         <a href="/frontpage">Sản phẩm mới</a>
                                         
                                     </li>
@@ -204,53 +211,29 @@
                                     <li>
                                         <a href="/san-pham-khuyen-mai">Sản phẩm khuyến mãi</a>
                                         
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/xoong-noi">Xoong/Nồi</a>
-                                        
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/do-nuong">Bếp nướng</a>
-                                        
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/cac-loai-bep">Các loại bếp</a>
-                                        
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/may-xay-sinh-to">Máy xay sinh tố</a>
-                                        
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/am-dun-nuoc">Ấm đun nước</a>
-                                        
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/do-gia-dung">Đồ gia dụng</a>
-                                        
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/may-lam-kem-sua-chua">Máy làm kem, sữa chua</a>
-                                        
-                                    </li>
-                                    
+                                    </li> -->
+                                    <?php
+                                        $category = $this->getCategory();
+                                        if($category):
+                                            ?>
+                                        <?php
+                                        foreach ($category as $v):
+                                    ?>
+                                        <li>
+                                            <a href="<?php echo app()->baseUrl;?>/san-pham/<?php echo $v->alias?>.html" title="<?php echo $v->name?>"><?php echo $v->name?></a>                                        
+                                        </li>
+                                        <?php endforeach;?>
+                                    <?php endif;?>
                                 </ul>
                                 
                             </li>
                             
-                            <li >
-                                <a href="/tin-tuc">Tin tức</a>
+                            <li class="<?php echo $this->id == 'congtrinh' ? 'active' : ''?>">
+                                <a href="/tin-tuc">Công Trình</a>
                                 
                             </li>
                             
-                            <li >
+                            <li class="<?php echo $this->id == 'contact' ? 'active' : ''?>">
                                 <a href="/lien-he">Liên hệ</a>
                                 
                             </li>
@@ -268,6 +251,7 @@
         </div>
     </div>
 </header>
+<?php if($this->id == 'site'):?>
             <section class="slider">
     <div class="container">
         <div class="row">
@@ -307,7 +291,7 @@
                         <li>
                             <img src="<?php echo app()->baseUrl;?>/assets/feature4.png?1493875157619" alt="Bảo hành Toàn quốc">
                             <p>Bảo hành</p>
-                            <h2>Toàn quốc</h2>
+                            <h2>Chính Hãng</h2>
                         </li>
                     </ul>
                 </section>
@@ -330,7 +314,7 @@
         </div>
     </div>
 </section>
-
+<?php endif;?>
 <?php echo $content;?>
 
             <footer id="footer">
@@ -339,28 +323,19 @@
             <div class="row">
                 <div class="col-lg-9 col-md-9 hidden-sm hidden-xs">
                     <nav class="nav-footer">
-                        <ul>
-                            
-                            <li class="active"><a href="/">Trang chủ</a></li>
-                            
-                            <li ><a href="/gioi-thieu">Giới thiệu</a></li>
-                            
-                            <li ><a href="/collections/all">Sản phẩm</a></li>
-                            
-                            <li ><a href="/tin-tuc">Tin tức</a></li>
-                            
-                            <li ><a href="/lien-he">Liên hệ</a></li>
-                            
-                        </ul>
+                        
                     </nav>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <nav class="nav-social">
+                        <?php
+                            $social = $this->getSocial();
+                        ?>
                         <ul>
                             <li>Kết nối với chúng tôi</li>
-                            <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="social-google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li class="social-youtube"><a href="#"><i class="fa fa-youtube "></i></a></li>
+                            <li class="social-facebook"><a href="<?php echo $social['facebook']?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-google"><a href="<?php echo $social['google']?>" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="social-youtube"><a href="<?php echo $social['youtube']?>" target="_blank"><i class="fa fa-youtube "></i></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -372,32 +347,32 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-md-6 col-xs-12 footer-about">
                     
-                    <img src="assets/logo-footer.png?1493875157619" alt="Cookwave theme">
+                    <img src="uploads/1504931514logo_mocstyle.png" alt="Moc Style">
                     
-
+                    <?php $contact = $this->getContact(); ?>
                     <ul>
                         
                         <li>
                             <i class="fa fa-map-marker"></i>
-                            <p>Tầng 4 - Tòa nhà Hanoi Group, 442 Đội Cấn, Ba Đình, Hà Nội</p>
+                            <p><?php echo $contact['address']?></p>
                         </li>
                         
                         
                         <li>
                             <i class="fa fa-phone"></i>
-                            <p>(84-4) 6655.8868</p>
+                            <p><?php echo $contact['mobile']?></p>
                         </li>
                         
                         
                         <li>
                             <i class="fa fa-fax"></i>
-                            <p>(84-4) 3786.8904</p>
+                            <p><?php echo $contact['phone']?></p>
                         </li>
                         
                         
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <a href="mailto:support@bizweb.vn">support@bizweb.vn</a>
+                            <a href="mailto:<?php echo $contact['email']?>"><?php echo $contact['email']?></a>
                         </li>
                         
                     </ul>
@@ -432,15 +407,10 @@
                     <ul>
                         
                         <li ><a href="/huong-dan">Đổi trả và bảo hành</a></li>
-                        
-                        <li ><a href="/huong-dan">Đăng kí thành viên</a></li>
-                        
+                                                
                         <li ><a href="/huong-dan">Hướng dẫn mua hàng</a></li>
                         
                         <li ><a href="/huong-dan">Giao nhận và thanh toán</a></li>
-                        
-                        <li ><a href="/huong-dan">Đăng ký nhận khuyến mại</a></li>
-                        
                     </ul>
                 </div>
                 
@@ -448,7 +418,7 @@
                 
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 footer-subcribe">
                     <div class="heading-small">
-                        <h3>Đăng ký nhận bản tin</h3>
+                        <h3>Đăng ký nhận khuyến mại</h3>
                     </div>
                     <p>Nhận những tin tức khuyến mại từ chúng tôi</p>
                     <div class="form-subcribe">
@@ -476,16 +446,8 @@
             <div class="row">
                 <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                     <p>
-                        © Bản quyền thuộc về Avent Team <span class="hidden-xs">|</span> <span class="line-down">Cung cấp bởi <a href="https://www.bizweb.vn/?utm_source=site-khach-hang&utm_campaign=referral_bizweb&utm_medium=footer&utm_content=cung-cap-boi-bizweb" target="_blank" title="Bizweb">Bizweb</a></span>
+                        © Bản quyền thuộc về Mộc Style
                     </p>
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-12 hidden-xs">
-                    <nav class="nav-payments">
-                        <ul>
-                            <li>Phương thức thanh toán:</li>
-                            <li><img src="assets/payments.png?1493875157619" alt="Thanh toán"></li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </div>

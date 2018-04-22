@@ -6,7 +6,7 @@ class ProductController extends Controller
 		$product = new ProductAR("searchListProduct");
 		$product->status = 1;
 		$content = $product->searchListProduct(16);
-		$this->layout = 'main';
+		$this->layout = 'standard';
 		$this->breadcrumbs = array(
 			'Sản phẩm' => ''
 			);
@@ -17,7 +17,7 @@ class ProductController extends Controller
 
 	public function actionDetail($id, $alias)
 	{
-		$this->layout = 'main';
+		$this->layout = 'standard';
 		$model = new ProductAR();
 		$product = $model->findByPk($id);
 		if(!$product)
@@ -83,7 +83,7 @@ class ProductController extends Controller
 			$title = $category->name;	
 		}
 		$content = $product->searchListProduct(16);
-		$this->layout = 'main';
+		$this->layout = 'standard';
 		$this->breadcrumbs = array(
 			'Sản phẩm' => url('san-pham.html'),
 			$category->name => $category1 ? url('san-pham/'.$category->alias.'.html') : '',
@@ -95,6 +95,7 @@ class ProductController extends Controller
 
 	public function actionSearch()
 	{
+		$this->layout = 'standard';
 		$keyword = request()->getQuery('keyword', '');
 		if($keyword == '')
 		{
