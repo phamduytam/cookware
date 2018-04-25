@@ -148,8 +148,16 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <a href="#">
+                <?php
+                    $banner3 = $this->getBannerByCatId(5);
+                    if ($banner3):
+                ?>
+                    <img class="img-responsive" src="<?php echo app()->baseUrl;?>/uploads/<?php echo $banner3->image?>" alt="<?php echo $banner3->name?>">
+                <?php else: ?>
                     <img class="img-responsive" src="assets/banner3.jpg?1493875157619" alt="Banner 3">
+                <?php endif; ?>
                 </a>
+
             </div>
         </div>
     </div>

@@ -19,6 +19,9 @@ class GioithieuController extends Controller
 			return ;
 		}
 
+		$this->layout = 'standard';
+		$this->pageTitle = 'Giới thiệu';
+
 		$this->render('index', compact('content'));
 	}
 }

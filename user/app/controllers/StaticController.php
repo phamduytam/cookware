@@ -2,6 +2,11 @@
 
 class StaticController extends Controller
 {
+	public function init()
+	{
+		$this->layout = 'standard';	
+	}
+
 	public function actionIndex()
 	{
 		$model = new StaticAR();
