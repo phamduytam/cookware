@@ -5,7 +5,7 @@ class ProductController extends Controller
 	{
 		$product = new ProductAR("searchListProduct");
 		$product->status = 1;
-		$content = $product->searchListProduct(16);
+		$content = $product->searchListProduct(15);
 		$this->layout = 'standard';
 		$this->breadcrumbs = array(
 			'Sản phẩm' => ''
