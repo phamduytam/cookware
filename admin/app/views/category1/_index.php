@@ -2,6 +2,7 @@
 	<td><?php echo $data->id;?></td>
 	<td><?php echo $data->name;?></td>
 	<td><?php echo $data->status == 1 ? 'Hiện' : 'Ẩn';?></td>
+	<td><input type="checkbox" <?php if($data->hot == 1) echo 'checked'?>></td>
 	<td><?php echo $data->ordering?></td>
 	<td><?php echo date('d-m-Y H:i:s',strtotime($data->created));?></td>
 	<td>

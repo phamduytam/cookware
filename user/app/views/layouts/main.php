@@ -438,27 +438,17 @@
                                 <h3>Chính sách</h3>
                             </div>
                             <ul>
-
+                                <?php $chinhsach = $this->getStaticList(5);
+                                    if($chinhsach):
+                                        foreach ($chinhsach as $v):
+                                ?>
                                 <li>
-                                    <a href="/quy-dinh-chinh-sach">Chính sách thanh toán</a>
+                                    <a href="<?php echo app()->baseUrl;?>/<?php echo $v->alias?>.html"><?php echo $v->name?></a>
                                 </li>
-
-                                <li>
-                                    <a href="/chinh-sach">Chính sách vận chuyển</a>
-                                </li>
-
-                                <li>
-                                    <a href="/chinh-sach">Chính sách đổi trả</a>
-                                </li>
-
-                                <li>
-                                    <a href="/chinh-sach">Chính sách bảo hành</a>
-                                </li>
-
-                                <li>
-                                    <a href="/chinh-sach">Chính sách đối tác</a>
-                                </li>
-
+                                <?php
+                                        endforeach;
+                                    endif;
+                                ?>
                             </ul>
                         </div>
 
@@ -469,18 +459,17 @@
                                 <h3>Trợ giúp</h3>
                             </div>
                             <ul>
-
+                                <?php $trogiup = $this->getStaticList(5,5);
+                                    if($trogiup):
+                                        foreach ($trogiup as $v):
+                                ?>
                                 <li>
-                                    <a href="/huong-dan">Đổi trả và bảo hành</a>
+                                    <a href="<?php echo app()->baseUrl;?>/<?php echo $v->alias?>.html"><?php echo $v->name?></a>
                                 </li>
-
-                                <li>
-                                    <a href="/huong-dan">Hướng dẫn mua hàng</a>
-                                </li>
-
-                                <li>
-                                    <a href="/huong-dan">Giao nhận và thanh toán</a>
-                                </li>
+                                <?php
+                                        endforeach;
+                                    endif;
+                                ?>
                             </ul>
                         </div>
 

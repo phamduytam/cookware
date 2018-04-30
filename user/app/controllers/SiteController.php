@@ -29,7 +29,7 @@ class SiteController extends Controller
 		
 		$model = new Category1AR();
 		$model->hot = true;
-		$category = $model->getCategory(4);
+		$category = $model->getCategory(2);
 
 		//title
 
@@ -38,7 +38,7 @@ class SiteController extends Controller
 
 		$model = new TintucAR();
 		$model->noibat = true;
-		$tintuc = $model->getList(3);
+		$tintuc = $model->getList(5);
 
 		$this->layout = 'main';
 

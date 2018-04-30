@@ -63,7 +63,7 @@ class StaticAR extends BaseAR
 			'name'		=> 'Tiêu đề',
 			'content'		=> 'Nội dung',
 			'status'		=> 'Tình trạng',
-			'status'		=> 'Chọn ra trang chủ',
+			'selected'		=> 'Chọn ra trang chủ',
 			'created'		=> 'Ngày tạo',
 			'alias'			=> 'Alias',
 			'keyword'		=> 'Keyword',

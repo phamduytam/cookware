@@ -178,102 +178,36 @@
                     </div>
                     <div class="block-content">
                         <div id="owl-news-blog" class="owl-carousel owl-theme">
-                            
-                            
-                            <div class="item blog-post">
-                                <div class="blog-image">
-                                    
-                                    <a href="/co-nen-dung-lo-vi-song-de-nuong-banh"><img src="thumb/medium/articles/untitled-2.jpg?v=1455695925630" alt="Tin tức - Blog"/></a>
-                                    
-                                </div>
-                                <div>
-                                    <h3>
-                                        <a class="article_title" href="/co-nen-dung-lo-vi-song-de-nuong-banh">Có nên dùng lò vi sóng để nướng bánh?</a>
-                                    </h3>
-                                    <p class="article_details">
-                                        <span><i class="fa fa-user" aria-hidden="true"></i> Bizweb Theme</span>
-                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 17/ 02/ 2016</span>
-                                    </p>
-                                    <p class="post_content"> Lò vi sóng và lò nướng là hai loại lò có chức năng khác biệt hẳn nhau. Lò nướng nướng bằng nhiệt điện trở làm chín từ mặt ngoài, lò vi sóng nướng bằng sóng cao tần, hay còn...<a href=/co-nen-dung-lo-vi-song-de-nuong-banh> [Xem thêm...] </a></p>
-                                </div>
-                            </div>
-                            
-                            <div class="item blog-post">
-                                <div class="blog-image">
-                                    
-                                    <a href="/huong-dan-chon-dung-cu-lam-bep"><img src="thumb/medium/articles/untitled-3.jpg?v=1455696254083" alt="Tin tức - Blog"/></a>
-                                    
-                                </div>
-                                <div>
-                                    <h3>
-                                        <a class="article_title" href="/huong-dan-chon-dung-cu-lam-bep">Hướng dẫn chọn dụng cụ làm bếp</a>
-                                    </h3>
-                                    <p class="article_details">
-                                        <span><i class="fa fa-user" aria-hidden="true"></i> Bizweb Theme</span>
-                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 17/ 02/ 2016</span>
-                                    </p>
-                                    <p class="post_content"> Chọn cỡ cho dụng cụ làm bếp không phụ thuộc vào không gian bếp lớn hay nhỏ, mà quan trọng nhất là tùy theo số lượng người trong gia đình. <a href=/huong-dan-chon-dung-cu-lam-bep> [Xem thêm...] </a></p>
-                                </div>
-                            </div>
-                            
-                            <div class="item blog-post">
-                                <div class="blog-image">
-                                    
-                                    <a href="/may-xay-sinh-to-cach-bao-quan-va-su-dung"><img src="thumb/medium/articles/may-xay-sinh-to-ep-trai-cay-da-nang-philips-hr-1847.jpg?v=1455694622967" alt="Tin tức - Blog"/></a>
-                                    
-                                </div>
-                                <div>
-                                    <h3>
-                                        <a class="article_title" href="/may-xay-sinh-to-cach-bao-quan-va-su-dung">Máy xay sinh tố - cách bảo quản và sử dụng</a>
-                                    </h3>
-                                    <p class="article_details">
-                                        <span><i class="fa fa-user" aria-hidden="true"></i> Bizweb Theme</span>
-                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 17/ 02/ 2016</span>
-                                    </p>
-                                    <p class="post_content"> Hiện nay, người tiêu dùng sử dụng nhiều nhất là các loại máy xay sinh tố đơn giản, có 2 chức năng xay khô, xay ướt. <a href=/may-xay-sinh-to-cach-bao-quan-va-su-dung> [Xem thêm...] </a></p>
-                                </div>
-                            </div>
-                            
-                            <div class="item blog-post">
-                                <div class="blog-image">
-                                    
-                                    <a href="/cach-dung-noi-thuy-tinh-tren-bep-tu"><img src="thumb/medium/articles/bep-dien-tu-napoli-5.jpg?v=1455693996583" alt="Tin tức - Blog"/></a>
-                                    
-                                </div>
-                                <div>
-                                    <h3>
-                                        <a class="article_title" href="/cach-dung-noi-thuy-tinh-tren-bep-tu">Cách dùng nồi thủy tinh trên bếp từ</a>
-                                    </h3>
-                                    <p class="article_details">
-                                        <span><i class="fa fa-user" aria-hidden="true"></i> Bizweb Theme</span>
-                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 17/ 02/ 2016</span>
-                                    </p>
-                                    <p class="post_content"> Trước đây gia đình bạn đã có một bộ nồi thủy tinh trên rất chi là đẹp của Visions, Luminarc hay Amberline bạn dùng nó cho bếp gas trong gia đình. <a href=/cach-dung-noi-thuy-tinh-tren-bep-tu> [Xem thêm...] </a></p>
-                                </div>
-                            </div>
-                            
-                            <div class="item blog-post">
-                                <div class="blog-image">
-                                    
-                                    <a href="/bai-viet-mau"><img src="thumb/medium/articles/binh-dun-sieu-toc-philips-hd9303-6-org-1.jpg?v=1455693647503" alt="Tin tức - Blog"/></a>
-                                    
-                                </div>
-                                <div>
-                                    <h3>
-                                        <a class="article_title" href="/bai-viet-mau">Chọn mua ấm đun nước dùng cho bếp từ</a>
-                                    </h3>
-                                    <p class="article_details">
-                                        <span><i class="fa fa-user" aria-hidden="true"></i> Bizweb Theme</span>
-                                        <span><i class="fa fa-calendar" aria-hidden="true"></i> 02/ 02/ 2016</span>
-                                    </p>
-                                    <p class="post_content"> Ấm đun nước bếp từ là một trong những từ khóa khi tôi check trên mạng thấy sao mà nhiều người tìm kiếm thế? <a href=/bai-viet-mau> [Xem thêm...] </a></p>
-                                </div>
-                            </div>
-                            
+                            <?php
+                                if ($tintuc):
+                                    foreach($tintuc as $v):
+                            ?>
+                                    <div class="item blog-post">
+                                        <div class="blog-image">
+                                            
+                                            <a href="<?php echo url('/tin-tuc/chi-tiet/' . $v->id . '/' . $v->alias.'.html')?>"><img src="<?php echo app()->baseUrl;?>/uploads/<?php echo $v->image?>" alt="<?php echo $v->name?>"/></a>
+                                            
+                                        </div>
+                                        <div>
+                                            <h3>
+                                                <a class="article_title" href="<?php echo url('/tin-tuc/chi-tiet/' . $v->id . '/' . $v->alias.'.html')?>">Có nên dùng lò vi sóng để nướng bánh?</a>
+                                            </h3>
+                                            <p class="article_details">
+                                                <!-- <span><i class="fa fa-user" aria-hidden="true"></i> Bizweb Theme</span> -->
+                                                <span><i class="fa fa-calendar" aria-hidden="true"></i> <?php echo $v->created?></span>
+                                            </p>
+                                            <p class="post_content"><?php echo $v->description ?><a href=<?php echo url('/tin-tuc/chi-tiet/' . $v->id . '/' . $v->alias.'.html')?>> [Xem thêm...] </a></p>
+                                        </div>
+                                    </div>
+                                
+                            <?php
+                                    endforeach;
+                                endif;
+                            ?>
                         </div>
                     </div>
                     <div class="view_all">
-                        <a href="tin-tuc">Xem tất cả <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                        <a href="<?php echo app()->baseUrl?>/tin-tuc">Xem tất cả <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 

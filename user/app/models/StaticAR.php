@@ -114,7 +114,7 @@ class StaticAR extends BaseAR
 		return $this->searchList_Ex($criteria, $pageSize, $maxPage);
 	}
 
-	public function getList($limit = '')
+	public function getList($limit = '', $offset = '')
 	{
 		$criteria = new CDbCriteria();
 		$criteria->select = '*';
@@ -123,6 +123,10 @@ class StaticAR extends BaseAR
 		$criteria->order = 'id DESC';
 		if ($limit){
 			$criteria->limit = $limit;	
+		}
+
+		if ($offset){
+			$criteria->offset = $offset;	
 		}
 		
 		return $this->findAll($criteria);

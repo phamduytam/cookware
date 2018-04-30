@@ -271,6 +271,16 @@ class Controller extends CController
 		return $tag_right;
 	}
 
+	public function getStaticList($limit = '', $offset = '')
+	{
+		// tag detail right
+		$model = new StaticAR();
+		$model->selected = true;
+		$model->status = true;
+		$static = $model->getList($limit, $offset);
+		return $static;
+	}
+
 	public function getProductByCatId($cat_id) {
 		$model = new ProductAR();
 		$model->cat_id = $cat_id;

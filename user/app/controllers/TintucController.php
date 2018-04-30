@@ -1,6 +1,11 @@
 <?php
 class TintucController extends Controller
 {
+	public function init()
+	{
+		$this->layout = 'standard';	
+	}
+
 	public function actionIndex()
 	{
 		$model = new TinTucAR();

@@ -1,24 +1,11 @@
-<div class="news_post_loop">
-	<div class="news_post_loop_img">
+<article class="article-item article_grid_item col-lg-6 col-md-6 col-sm-6 col-xs-12">
+	<div class="article-image">
 		<a href="<?php echo url('/tin-tuc/chi-tiet/' . $data->id . '/' . $data->alias.'.html')?>">
-
-			<img src="<?php echo app()->baseUrl?>/uploads/<?php echo $data->image?>" alt="<?php echo $data->name?>">
-
+			<img class="img-responsive" src="<?php echo app()->baseUrl?>/uploads/<?php echo $data->image?>" alt="<?php echo $data->name?>">			
 		</a>
 	</div>
-	<div class="news_post_loop_title">
-		<h3><a href="<?php echo url('/tin-tuc/chi-tiet/' . $data->id . '/' . $data->alias.'.html')?>" title="<?php echo $data->name?>"><?php echo $data->name?></a></h3>
-	</div>
-	<div class="news_post_loop_info">
-		<p class="cl_old">
-			<span><?php echo $data->created?></span>
-		</p>
-	</div>
-	<div class="news_post_loop_content cl_old">
-		<?php echo cutStr(html_entity_decode($data->description, ENT_QUOTES, 'UTF-8'), 240)?>
-	</div>
-	<div class="news_post_loop_more">
-		<button class="btn_viewmore" onclick="location.href='<?php echo url('/tin-tuc/chi-tiet/' . $data->id . '/' . $data->alias.'.html')?>'">Đọc thêm <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-		</button>
-	</div>
-</div>
+	<h3 class="article-title"><a href="<?php echo url('/tin-tuc/chi-tiet/' . $data->id . '/' . $data->alias.'.html')?>"><?php echo $data->name?></a></h3>
+	<p class="article-info"><span><i class="fa fa-clock-o"></i> <?php echo $data->created?></span></p>
+	<p class="article-summary"><?php echo $data->description ?></p>
+	<a class="article-readmore" href="<?php echo url('/tin-tuc/chi-tiet/' . $data->id . '/' . $data->alias.'.html')?>">Đọc thêm</a>
+</article>

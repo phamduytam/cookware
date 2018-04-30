@@ -14,24 +14,19 @@ class StaticController extends Controller
 		$search = array('/', '.html');
 		$replace = array('', '');
 		$alias = str_replace($search, $replace, $alias);
-		$tintuc = $model->findByAttributes(array('alias' => $alias));
-		if(!$tintuc)
+		$content = $model->findByAttributes(array('alias' => $alias));
+		if(!$content)
 			throw new CHttpException(404,'The specified post cannot be found.');
 
-		$this->breadcrumbs = array(
-			$tintuc->name => ''
-			);
-		$this->pageTitle = $tintuc->name;
-		if ($tintuc->keyword != '')
-			$this->keyword = $tintuc->keyword;
-		if ($tintuc->description != '')
-			$this->description = $tintuc->description;	
-		
-		// get 6 item of ban ghe pallet
-		$product = new ProductAR();
-		$product->cat_id = 33;
-		$banghe = $product->getBanGhe(6);
-		$this->render('index', compact('tintuc', 'banghe'));
+		// $this->breadcrumbs = array(
+		// 	$tintuc->name => ''
+		// 	);
+		// $this->pageTitle = $tintuc->name;
+		// if ($tintuc->keyword != '')
+		// 	$this->keyword = $tintuc->keyword;
+		// if ($tintuc->description != '')
+		// 	$this->description = $tintuc->description;
+		$this->render('index', compact('content'));
 	}
 
 	public function actionAdd()

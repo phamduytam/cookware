@@ -15,9 +15,9 @@
 	$pagerCssClass	=	'pagination';
 	$pager			=	array(
 								'class'=>'TbPager',
-								'prevPageLabel'=>'Prev',
+								'prevPageLabel'=>'<i class="fa fa-angle-left"></i>',
 								'maxButtonCount'=>5,
-								'nextPageLabel'=>'Next',
+								'nextPageLabel'=>'<i class="fa fa-angle-right"></i>',
 								'htmlOptions' => array('class' => 'pagination'),
 								'header' => false,
 							);

@@ -26,6 +26,7 @@
 			<th>Id <i class="fa fa-sort"></i></th>
 			<th>Tiêu đề <i class="fa fa-sort"></i></th>
 			<th>Trạng thái <i class="fa fa-sort"></i></th>
+			<th>Hiện ra trang chủ <i class="fa fa-sort"></i></th>
 			<th>Thứ tự <i class="fa fa-sort"></i></th>
 			<th>Ngày tạo <i class="fa fa-sort"></i></th>
 			<th>Tuỳ chỉnh </th>
