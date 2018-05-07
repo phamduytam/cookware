@@ -281,10 +281,10 @@ class Controller extends CController
 		return $static;
 	}
 
-	public function getProductByCatId($cat_id) {
+	public function getProductByCatId($cat_id, $limit = 6) {
 		$model = new ProductAR();
 		$model->cat_id = $cat_id;
-		$product = $model->getList(6);
+		$product = $model->getList($limit);
 		if($product)
 			return $product;
 		return false;

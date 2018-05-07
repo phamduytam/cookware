@@ -27,31 +27,50 @@
 <section class="contact">
 	<div class="">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<div class="heading">
-					<h1>Liên hệ với chúng tôi</h1>
-				</div>
-			</div>
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 form-style">
-				<form accept-charset="UTF-8" action="/contact" id="contact" method="post">
+			<?php
+					$form = $this->beginWidget('TbActiveForm', array(
+						'action'=>sslUrl('contact'),
+						'id' => 'form',
+						'htmlOptions'=>array('enctype' => 'multipart/form-data')
+					));
+				?>
+					<?php
+						if (user()->hasFlash('messages'))
+						{
+							$messages = user()->getFlash('messages');
+							echo '<div id="formstatus"><div class="alert alert-success"><i class="fa fa-check-circle-o"></i>	'. hsp($messages). '</div></div>';
+						}
+					?>
 					<input name="FormType" type="hidden" value="contact">
 					<input name="utf8" type="hidden" value="true">
-
-
 					<label>Họ và tên:
 						<span>*</span>
 					</label>
-					<input type="text" value="" name="contact[Name]" class="form-text">
+					<?php echo $form->textField($model,'name', array('placeholder' => '', 'class' => 'form-text')); ?>
+					<?php echo $form->error($model,'name'); ?>
+					<!-- <input type="text" value="" name="contact[Name]" class="form-text"> -->
 					<label>Email:
 						<span>*</span>
 					</label>
-					<input type="text" value="" class="form-text" name="contact[email]">
+					<?php echo $form->textField($model,'email', array('placeholder' => '', 'class' => 'form-text')); ?>
+					<?php echo $form->error($model,'email'); ?>
+					<!-- <input type="text" value="" class="form-text" name="contact[email]"> -->
+					<label>Số điện thoại:
+						<span>*</span>
+					</label>
+					<?php echo $form->textField($model,'phone', array('placeholder' => '', 'class' => 'form-text')); ?>
+					<?php echo $form->error($model,'phone'); ?>
 					<label>Nội dung:
 						<span>*</span>
 					</label>
-					<textarea name="contact[Body]" class="form-textarea" rows="10"></textarea>
+					<?php echo $form->textArea($model,'content', array('placeholder' => '', 'class' => 'form-textarea', 'rows' => 10)); ?>
+					<?php echo $form->error($model,'content'); ?>
+					<!-- <textarea name="contact[Body]" class="form-textarea" rows="10"></textarea> -->
 					<button type="submit" class="form-button">Gửi liên hệ</button>
-				</form>
+				<?php
+					$this->endWidget();
+				?>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-about form-style">
 				<?php $logo = $this->getLogo()?>
@@ -62,36 +81,38 @@
                                 $img = 'assets/logo.png';
 						?>
 					<img src="<?php echo app()->baseUrl;?>/<?php echo $img?>" alt="Mộc Style">
-
+					<?php $contact = $this->getContact(); ?>
 					<ul>
 
 						<li>
 							<i class="fa fa-map-marker"></i>
-							<p>Tầng 4 - Tòa nhà Hanoi Group, 442 Đội Cấn, Ba Đình, Hà Nội</p>
+							<p><?php echo $contact['address']?></p>
 						</li>
 
 
 						<li>
 							<i class="fa fa-phone"></i>
-							<p>(84-4) 6655.8868</p>
+							<p><?php echo $contact['mobile']?></p>
 						</li>
 
 
 						<li>
 							<i class="fa fa-fax"></i>
-							<p>(84-4) 3786.8904</p>
+							<p><?php echo $contact['phone']?></p>
 						</li>
 
 
 						<li>
 							<i class="fa fa-envelope"></i>
-							<a href="support@bizweb.vn">support@bizweb.vn</a>
+							<a href="mailto:<?php echo $contact['email']?>">
+								<?php echo $contact['email']?>
+							</a>
 						</li>
 
 					</ul>
 			</div>
 		</div>
-		<section>
+		<section style="margin-top: 10px;">
 				<div class="box-maps">
 					<div class="google-map">
 						<div id="contact_map" class="map" style="position: relative; overflow: hidden;">
