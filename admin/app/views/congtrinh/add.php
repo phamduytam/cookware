@@ -1,12 +1,6 @@
-<?php
-$this->pageTitle = 'Product';
-?>
+
 <div class="row">
-<ol class="breadcrumb">
-	<li><i class="fa fa-star-o"></i> <a href='<?php echo url('/product')?>'>Product</a></li>
-	<li class="active"><i class="fa fa-edit"></i> Edit</li>
-</ol>
-<div class="col-lg-6">
+<div class="col-lg-12">
 
 
 <?php echo CHtml::errorSummary($model, '<div class="alert alert-dismissable alert-warning"> Loi', '</div>'); ?>
@@ -19,7 +13,7 @@ $this->pageTitle = 'Product';
 	?>
 <?php
 	$form = $this->beginWidget('TbActiveForm', array(
-		'action'=>sslUrl('product/edit/'.$model->id),
+		'action'=>sslUrl('tintuc/add'),
 		'id' => 'add-form',
 		'htmlOptions'=>array('enctype' => 'multipart/form-data')
 	));
@@ -27,7 +21,7 @@ $this->pageTitle = 'Product';
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'name'); ?>
-	<?php echo $form->textField($model,'name', array('class' => 'form-control')); ?>
+	<?php echo $form->textField($model,'name', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập tiêu đề ')); ?>
 </div>
 
 <div class="form-group">
@@ -37,16 +31,14 @@ $this->pageTitle = 'Product';
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'image'); ?>
-	<?php echo $form->fileField($model,'image', array('value' => $model->image)); ?>
-	<?php echo CHtml::image(dirname(app()->baseUrl) . 'uploads/'.$model->image, 'image', array('width' => '50px', 'height' => '50px'))?>
-	<?php echo Chtml::hiddenField('hd_img', $model->image); ?>
+	<?php echo $form->fileField($model,'image'); ?>
 </div>
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'content'); ?>
 	<?php echo $form->textArea($model,'content', array('class' => 'form-control')); ?>
 	<script>
-	editor = CKEDITOR.replace( 'ProductAR_content', {
+	editor = CKEDITOR.replace( 'TinTucAR_content', {
 		filebrowserBrowseUrl: '/browser/browse.php',
 		filebrowserUploadUrl: '/uploader/upload.php',
 		filebrowserWindowWidth: '640',
@@ -56,14 +48,17 @@ $this->pageTitle = 'Product';
 	</script>
 </div>
 
+
 <div class="form-group">
 	<?php echo $form->labelEx($model,'status'); ?>
-	<?php echo $form->checkBox($model,'status', array('checked' => $model->status)); ?>
+	<?php echo $form->checkBox($model,'status', array('checked' => 'checked')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+	<?php echo $form->labelEx($model,'noibat'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+	<?php echo $form->checkBox($model,'noibat'); ?>&nbsp;
 </div>
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'order'); ?>
-	<?php echo $form->textField($model,'order', array('class' => 'form-control')); ?>
+	<?php echo $form->textField($model,'order', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập thứ tự')); ?>
 </div>
 
 <button type="submit" class="btn btn-default">Save</button>

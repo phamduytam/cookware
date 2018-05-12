@@ -3,6 +3,9 @@ class ContactController extends Controller
 {
 	public function actionIndex()
 	{
+		$this->breadcrumbs = array(
+			'Liên hệ' => ''
+			);
 		$model = new ContactAR();
 		if(request()->getPost('ContactAR')){
 			$model->attributes = request()->getPost('ContactAR');
@@ -37,7 +40,7 @@ class ContactController extends Controller
 						$mail->Subject = '[SEND MAIL FROM WEBSITE] ' . $model->subject;
 						$mail->AltBody = '';
 						$mail->MsgHTML($content);
-						$mail->AddAddress('pndtam@gmail.com', 'Tam Pham');
+						$mail->AddAddress('mocstyle.vn@gmail.com', 'MocStyle');
 						// $mail->AddAddress('tuan.pham@dimac-law.com', 'Pham Quoc Tuan');
 						// $mail->addCC('duong.tran@dimac-law.com', 'Duong Tran');
 						$mail->Send();

@@ -1,35 +1,33 @@
 <?php
-class AdvertiseController extends Controller
+class CongtrinhController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->pageTitle = 'Banner - Hình ảnh';
+		$this->pageTitle = 'Công Trình';
 		$this->breadcrumb = array(
-			'Banner - Hình ảnh' => '',
+			'Công Trình' => ''
 			);
-
+		
 		$word = request()->getQuery('word', '');
-		$advertise = new AdvertiseAR("searchListAdvertise");
-		if($word) $advertise->word = $word;
-		$content = $advertise->searchListAdvertise();
+		$congtrinh = new CongTrinhAR("searchList");
+		if($word) $congtrinh->word = $word;
+		$content = $congtrinh->searchList();
 		$this->render('index', compact('content', 'word'));
 	}
 
 	public function actionAdd()
 	{
-		$this->pageTitle = 'Banner - Hình ảnh';
+		$this->pageTitle = 'Công Trình';
 		$this->breadcrumb = array(
-			'Banner - Hình ảnh' => app()->baseUrl.'/advertise',
-			'Add'		=> ''
+			'Công Trình' => app()->baseUrl.'/congtrinh',
+			'Add'		=> ''	
 			);
 
-		$model = new AdvertiseAR();
-		$category_model = new CategoryAR();
-		$category = $category_model->findAllListCategory();
-		if (app()->request->getPost('AdvertiseAR'))
+		$model = new CongTrinhAR();
+		if (app()->request->getPost('CongTrinhAR'))
 		{
 			// POSTデータの取得
-			$data = request()->getPost('AdvertiseAR');
+			$data = request()->getPost('CongTrinhAR');
 			$model->attributes = $data;
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
@@ -47,33 +45,31 @@ class AdvertiseController extends Controller
 						$pathImage = dirname(dirname(app()->basePath)) . app()->params['imagePath'].$imageFileName;
 						$imageUploadFile->saveAs($pathImage);
 						// resize
-						$this->resizeImage($pathImage, $data['cat_id']);
+						$this->resizeImage($pathImage);
 					}
 					user()->setFlash('messages', 'Add successful!!');
 				}
 
 			}
 		}
-		$this->render('add', compact('model', 'category'));
+		$this->render('add', compact('model'));
 	}
 
 	public function actionEdit($id)
 	{
-		$this->pageTitle = 'Banner - Hình ảnh';
+		$this->pageTitle = 'Công Trình';
 		$this->breadcrumb = array(
-			'Banner - Hình ảnh' => app()->baseUrl.'/advertise',
-			'Edit'		=> ''
+			'Công Trình' => app()->baseUrl.'/congtrinh',
+			'Edit'		=> ''	
 			);
 
-		$advertise = new AdvertiseAR();
-		$model = $advertise->findByPk($id);
-		$category_model = new CategoryAR();
-		$category = $category_model->findAllListCategory();
+		$congtrinh = new CongTrinhAR();
+		$model = $congtrinh->findByPk($id);
 		if(!$model)
 			return ;
-		if (app()->request->getPost('AdvertiseAR'))
+		if (app()->request->getPost('CongTrinhAR'))
 		{
-			$data = request()->getPost('AdvertiseAR');
+			$data = request()->getPost('CongTrinhAR');
 			$model->attributes = $data;
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
@@ -90,8 +86,8 @@ class AdvertiseController extends Controller
 					$model->image = $imageFileName;
 					$pathImage = dirname(dirname(app()->basePath)) . app()->params['imagePath'].$imageFileName;
 					$ret = $imageUploadFile->saveAs($pathImage);
-					// resize
-					$this->resizeImage($pathImage, $data['cat_id']);
+					//resize
+					$this->resizeImage($pathImage);
 					if($ret)
 						deleteImage(dirname(dirname(app()->basePath)) . app()->params['imagePath'], $image_old);
 				}
@@ -100,36 +96,23 @@ class AdvertiseController extends Controller
 					user()->setFlash('messages', 'Edit successful!!');
 			}
 		}
-		$this->render('edit', compact('model', 'category'));
+		$this->render('edit', compact('model'));
 	}
 	public function actionDelete($id)
 	{
-		$model = AdvertiseAR::model()->findByPk($id);
+		$model = CongTrinhAR::model()->findByPk($id);
 		if($model->delete())
 			deleteImage(dirname(dirname(app()->basePath)) . app()->params['imagePath'], $model->image);
 	}
 
-	private function resizeImage($pathImage, $cat_id){
+	private function resizeImage($pathImage){
 		if(is_file($pathImage)){
-			if($cat_id == 7){
-				$w = 190; $h = 135;
-			}
-			else if($cat_id == 3 || $cat_id == 4){
-				$w = 360; $h = 320;
-			}
-			else if($cat_id == 5){
-				$w = 1140; $h = 200;
-			}
-			else if($cat_id == 2){
-				$w = 750; $h = 500;
-			}else if($cat_id == 1){
-				$w = 263; $h = 76;
-			}
+			$w = 850; $h = 500;
 			// *** 1) Initialise / load image
 			$resizeObj = new resize($pathImage);
 
 			// *** 2) Resize image (options: exact, portrait, landscape, auto, crop)
-			$resizeObj -> resizeImage($w, $h, 'auto');
+			$resizeObj -> resizeImage($w, $h, 'exact');
 
 			// *** 3) Save image
 			$resizeObj -> saveImage($pathImage, 100);

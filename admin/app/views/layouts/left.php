@@ -74,6 +74,10 @@
 				data-hc="#EF6F6C" data-size="18" data-loop="true"></i> <span
 				class="title">Tin Tức</span> <span class="fa arrow"></span> </a>
 			</li>
+		<li <?php echo $this->id == 'congtrinh' ? 'class="active"' : ''?>><a href="<?php echo app()->baseUrl;?>/congtrinh"> <i class="livicon" data-name="move" data-c="#67C5DF"
+			data-hc="#67C5DF" data-size="18" data-loop="true"></i> <span
+			class="title">Công Trình</span> <span class="fa arrow"></span> </a>
+		</li>
 		<li <?php echo $this->id == 'khachhang' ? 'class="active"' : ''?>><a href="<?php echo app()->baseUrl;?>/khachhang"> <i class="livicon" data-name="user" data-c="#6CC66C"
 				data-hc="#6CC66C" data-size="18" data-loop="true"></i> <span
 				class="title">Khách hàng</span> <span class="fa arrow"></span> </a>

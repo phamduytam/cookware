@@ -239,7 +239,7 @@
                                     </li>
 
                                     <li class="<?php echo $this->id == 'congtrinh' ? 'active' : ''?>">
-                                        <a href="/tin-tuc">Công Trình</a>
+                                        <a href="/cong-trinh">Công Trình</a>
 
                                     </li>
 
