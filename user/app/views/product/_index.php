@@ -18,6 +18,7 @@
 				<?php echo $data->name?>
 			</a>
 		</h3>
+		<p>Mã SP: <span class="product-item-price"><?php echo $data->masp?></span></p>
 		<p class="product-item-price"><?php echo $data->price?></p>
 		<!-- <p class="product-item-price-sale">259.000₫</p> -->
 	</div>

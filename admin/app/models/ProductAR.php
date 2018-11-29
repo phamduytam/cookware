@@ -7,6 +7,7 @@ class ProductAR extends BaseAR
 	 * @return AdminAR the static model class
 	 */
 	public $word;
+	public $cat_id;
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -116,7 +117,9 @@ class ProductAR extends BaseAR
 		$criteria->select = '*';
 		//$criteria->addCondition('status = :status')->params[':status'] = 1;
 		if(strlen($this->word) > 0)
-			$criteria->compare('name',$this->word,true);
+			$criteria->compare('t.name',$this->word,true);
+		if(strlen($this->cat_id) > 0)
+			$criteria->addCondition('t.cat_id = :cat_id')->params[':cat_id'] = $this->cat_id;
 		$criteria->with = array(
 			'category' => array(
 				'select' 	=> 'category.name',

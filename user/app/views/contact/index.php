@@ -73,7 +73,9 @@
 				?>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-about form-style">
-				<?php $logo = $this->getLogo()?>
+				<?php
+					$logo = $this->getBannerByCatId(8);
+				?>
 				<?php
                             if ($logo)
                                 $img = 'uploads/' . $logo->image;

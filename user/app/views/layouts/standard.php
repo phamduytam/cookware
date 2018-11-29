@@ -39,17 +39,17 @@
 					<h2 id="click_show_cate">Danh mục</h2>
 					<ul id="show_cate">
 					<li >
-						<a href="/frontpage"><img src="<?php echo app()->baseUrl;?>/assets/category1.png?1493875157619"  alt="Sản phẩm mới"><img src="assets/category-hover1.png?1493875157619"  alt="Sản phẩm mới"> Sản phẩm mới</a>
+						<a href="/frontpage"><img src="<?php echo app()->baseUrl;?>/assets/category1.png?1493875157619"  alt="Sản phẩm mới"><img src="<?php echo app()->baseUrl;?>assets/category-hover1.png?1493875157619"  alt="Sản phẩm mới"> Sản phẩm mới</a>
 						
 					</li>
 					
 					<li >
-						<a href="/san-pham-noi-bat"><img src="<?php echo app()->baseUrl;?>/assets/category2.png?1493875157619"  alt="Sản phẩm nổi bật"><img src="assets/category-hover2.png?1493875157619"  alt="Sản phẩm nổi bật"> Sản phẩm nổi bật</a>
+						<a href="/san-pham-noi-bat"><img src="<?php echo app()->baseUrl;?>/assets/category2.png?1493875157619"  alt="Sản phẩm nổi bật"><img src="<?php echo app()->baseUrl;?>assets/category-hover2.png?1493875157619"  alt="Sản phẩm nổi bật"> Sản phẩm nổi bật</a>
 						
 					</li>
 					
 					<li >
-						<a href="/san-pham-khuyen-mai"><img src="<?php echo app()->baseUrl;?>/assets/category3.png?1493875157619"  alt="Sản phẩm khuyến mãi"><img src="assets/category-hover3.png?1493875157619"  alt="Sản phẩm khuyến mãi"> Sản phẩm khuyến mãi</a>
+						<a href="/san-pham-khuyen-mai"><img src="<?php echo app()->baseUrl;?>/assets/category3.png?1493875157619"  alt="Sản phẩm khuyến mãi"><img src="<?php echo app()->baseUrl;?>assets/category-hover3.png?1493875157619"  alt="Sản phẩm khuyến mãi"> Sản phẩm khuyến mãi</a>
 						
 					</li>
 						<?php
@@ -70,6 +70,12 @@
 						<?php endif;?>
 					</ul>
 				</nav>
+				<?php
+                    $banner3 = $this->getBannerByCatId(6);
+                    if ($banner3):
+                ?>
+					<a target="_blank" href="<?php echo $banner3->url != '' ? $banner3->url : 'javascript:void(0)';?>"><img class="img-responsive" src="<?php echo app()->baseUrl;?>/uploads/<?php echo $banner3->image?>" alt="<?php echo $banner3->name?>"></a>
+				<?php endif; ?>
 			</div>
 			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
 				<div class="heading">

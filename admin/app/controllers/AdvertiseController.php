@@ -26,6 +26,7 @@ class AdvertiseController extends Controller
 		$model = new AdvertiseAR();
 		$category_model = new CategoryAR();
 		$category = $category_model->findAllListCategory();
+		
 		if (app()->request->getPost('AdvertiseAR'))
 		{
 			// POSTデータの取得
@@ -120,10 +121,17 @@ class AdvertiseController extends Controller
 			else if($cat_id == 5){
 				$w = 1140; $h = 200;
 			}
+			else if($cat_id == 6){
+				$w = 278; $h = 446;
+			}
 			else if($cat_id == 2){
 				$w = 750; $h = 500;
 			}else if($cat_id == 1){
 				$w = 263; $h = 76;
+			}
+
+			if ($cat_id == 8) {
+				return;
 			}
 			// *** 1) Initialise / load image
 			$resizeObj = new resize($pathImage);

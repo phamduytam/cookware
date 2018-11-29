@@ -26,7 +26,11 @@
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'name'); ?>
-	<?php echo $form->textField($model,'name', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập tên image')); ?>
+	<?php echo $form->textField($model,'name', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập tên')); ?>
+</div>
+<div class="form-group">
+	<?php echo $form->labelEx($model,'url'); ?>
+	<?php echo $form->textField($model,'url', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập url')); ?>
 </div>
 
 <div class="form-group">

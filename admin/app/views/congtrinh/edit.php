@@ -13,7 +13,7 @@
 	?>
 <?php
 	$form = $this->beginWidget('TbActiveForm', array(
-		'action'=>sslUrl('tintuc/edit/'.$model->id),
+		'action'=>sslUrl('congtrinh/edit/'.$model->id),
 		'id' => 'add-form',
 		'htmlOptions'=>array('enctype' => 'multipart/form-data')
 	));
@@ -40,7 +40,7 @@
 	<?php echo $form->labelEx($model,'content'); ?>
 	<?php echo $form->textArea($model,'content', array('class' => 'form-control')); ?>
 	<script>
-	editor = CKEDITOR.replace( 'TinTucAR_content', {
+	editor = CKEDITOR.replace( 'CongTrinhAR_content', {
 		filebrowserBrowseUrl: '/browser/browse.php',
 		filebrowserUploadUrl: '/uploader/upload.php',
 		filebrowserWindowWidth: '640',

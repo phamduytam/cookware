@@ -154,6 +154,7 @@
                                                 <?php echo $value->name?>
                                             </a>
                                         </h3>
+                                        <p>Mã SP: <span class="product-item-price"><?php echo $value->masp?></span></p>
                                         <p class="product-item-price">
                                             <?php echo $value->price?>
                                         </p>
@@ -176,16 +177,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <a href="#">
                     <?php
                     $banner3 = $this->getBannerByCatId(5);
                     if ($banner3):
                 ?>
-                        <img class="img-responsive" src="<?php echo app()->baseUrl;?>/uploads/<?php echo $banner3->image?>" alt="<?php echo $banner3->name?>">
+                        <a target="_blank" href="<?php echo $banner3->url != '' ? $banner3->url : 'javascript:void(0)';?>"><img class="img-responsive" src="<?php echo app()->baseUrl;?>/uploads/<?php echo $banner3->image?>" alt="<?php echo $banner3->name?>"></a>
                         <?php else: ?>
                         <img class="img-responsive" src="assets/banner3.jpg?1493875157619" alt="Banner 3">
                         <?php endif; ?>
-                </a>
 
             </div>
         </div>
@@ -225,7 +224,7 @@
                                     </div>
                                     <div>
                                         <h3>
-                                            <a class="article_title" href="<?php echo url('/tin-tuc/chi-tiet/' . $v->id . '/' . $v->alias.'.html')?>">Có nên dùng lò vi sóng để nướng bánh?</a>
+                                            <a class="article_title" href="<?php echo url('/tin-tuc/chi-tiet/' . $v->id . '/' . $v->alias.'.html')?>"><?php echo $v->name?></a>
                                         </h3>
                                         <p class="article_details">
                                             <!-- <span><i class="fa fa-user" aria-hidden="true"></i> Bizweb Theme</span> -->

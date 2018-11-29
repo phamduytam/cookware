@@ -25,7 +25,7 @@
     <meta property="og:url" content="">
     <meta property="og:site_name" content="Moc Style">
 
-    <link rel="icon" href="<?php echo app()->baseUrl;?>/assets/favicon.png?1493875157619" type="image/x-icon" />
+    <!-- <link rel="icon" href="<?php echo app()->baseUrl;?>/assets/favicon.png?1493875157619" type="image/x-icon" /> -->
     <!-- Bootstrap -->
     <link href='<?php echo app()->baseUrl;?>/assets/bootstrap.min.css?1493875157619' rel='stylesheet' type='text/css' />
     <!-- Roboto Fonts Google -->
@@ -275,7 +275,7 @@
 					foreach($slide as $v):
 				?>
                                 <div class="item">
-                                    <a href="#">
+                                    <a href="<?php echo $v->url != '' ? $v->url : 'javascript:void(0)' ?>" target="_blank">
                                         <img src="<?php echo app()->baseUrl;?>/uploads/<?php echo $v->image?>" alt="<?php echo $v->name?>">
                                     </a>
                                 </div>
@@ -315,32 +315,28 @@
                         <div class="row">
 
                             <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
-                                <a class="slider-banner-top" href="#">
                                     <?php
                                         $banner1 = $this->getBannerByCatId(3);
                                         if ($banner1):
                                     ?>
-                                        <img class="img-responsive" src="<?php echo app()->baseUrl;?>/uploads/<?php echo $banner1->image?>" alt="<?php echo $banner1->name?>">
+                                        <a class="slider-banner-top" target="_blank" href="<?php echo $banner1->url != '' ? $banner1->url : 'javascript:void(0)';?>"><img class="img-responsive" src="<?php echo app()->baseUrl;?>/uploads/<?php echo $banner1->image?>" alt="<?php echo $banner1->name?>"></a>
                                     <?php else: ?>
                                     <img class="img-responsive" src="<?php echo app()->baseUrl;?>/assets/banner1.jpg?1493875157619"
                                         alt="Banner 1">
                                     <?php endif;?>
-                                </a>
                             </div>
 
 
                             <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
-                                <a class="slider-banner-bottom" href="#">
                                 <?php
                                         $banner2 = $this->getBannerByCatId(4);
                                         if ($banner2):
                                     ?>
-                                        <img class="img-responsive" src="<?php echo app()->baseUrl;?>/uploads/<?php echo $banner2->image?>" alt="<?php echo $banner2->name?>">
+                                        <a class="slider-banner-bottom" target="_blank" href="<?php echo $banner2->url != '' ? $banner2->url : 'javascript:void(0)';?>"><img class="img-responsive" src="<?php echo app()->baseUrl;?>/uploads/<?php echo $banner2->image?>" alt="<?php echo $banner2->name?>"></a>
                                     <?php else: ?>
                                     <img class="img-responsive" src="<?php echo app()->baseUrl;?>/assets/banner2.jpg?1493875157619"
                                         alt="Banner 2">
                                     <?php endif; ?>
-                                </a>
                             </div>
 
                         </div>
@@ -392,9 +388,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-sm-6 col-md-6 col-xs-12 footer-about">
-
-                            <img src="<?php echo app()->baseUrl;?>/uploads/1504931514logo_mocstyle.png" alt="Moc Style">
-
+                        <?php
+                            $logo_footer = $this->getBannerByCatId(8);
+                            if ($logo_footer):
+                        ?>
+                            <img src="<?php echo app()->baseUrl;?>/uploads/<?php echo $logo_footer->image ?>" alt="Moc Style">
+                            <?php endif; ?>
                             <?php $contact = $this->getContact(); ?>
                             <ul>
 
